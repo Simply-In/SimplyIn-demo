@@ -242,7 +242,7 @@ export const SimplyID = () => {
 			<SelectedDataContext.Provider value={providerProps}>
 				<CounterContext.Provider value={counterProps}>
 
-					<div className="REACT_APP" style={{ margin: `10px 10px 10px ${phoneNumber ? 10 : -5}px` }}>
+					<div className="REACT_APP" style={{ margin: `10px 10px 10px ${phoneNumber ? 10 : 0}px` }}>
 
 						<SimplyinContainer>
 							<input autoComplete="off"
