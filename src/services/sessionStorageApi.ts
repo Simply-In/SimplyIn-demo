@@ -1,5 +1,6 @@
 interface ISessionStorageData {
 	key: 'UserData' | "simplyinToken" | "phoneToken" | "phoneInput" | "electronicContactApprove" | "marketingContactApprove" | "useParcel" | "isInpostKeyValid" | "nipField"
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	data: any
 }
 
